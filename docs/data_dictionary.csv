@@ -1,0 +1,10 @@
+Column Name,Data Type,Description,Expected Range / Values
+Institute,Categorical (Text),Full name of the institute (IIT/NIT/IIIT/GFTI),~120 unique institutes
+Academic Program Name,Categorical (Text),Name of the engineering branch or program,~500+ unique programs
+Quota,Categorical (Text),"Seat quota type - AI (All India), HS (Home State), OS (Other State)","AI, HS, OS"
+Seat Type,Categorical (Text),"Reservation category - OPEN, OBC-NCL, SC, ST, EWS","OPEN, OBC-NCL, SC, ST, EWS, OPEN (PwD), OBC-NCL (PwD) etc."
+Gender,Categorical (Text),Seat pool - Gender-Neutral or Female-Only,"Gender-Neutral, Female-Only"
+Opening Rank,Numerical (Integer),Best (lowest) rank that received admission in this program,1 to ~200000
+Closing Rank,Numerical (Integer),Last (highest) rank that received admission in this program,1 to ~200000
+Round,Numerical (Integer),JoSAA allocation round number (1 through 6),1 to 6
+Year,Numerical (Integer),Academic year of the admission cycle,2018 to 2025

@@ -1,0 +1,83 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║         JEE COLLEGE ADMISSION ANALYTICS — FINDINGS REPORT       ║
+║         8 Years of JoSAA Data (2018–2025)                        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+DATASET OVERVIEW
+─────────────────
+- 432,524 cutoff records across 8 years
+- 136 institutes: 23 IITs, 31 NITs, 30 IIITs, 52 GFTIs
+- 326 unique programs across all institutes
+- Data volume grew 49% from 2018 to 2025
+
+FINDING 1: THE TIER GAP IS ENORMOUS
+─────────────────────────────────────
+- IIT median closing rank  : 1,575
+- NIT median closing rank  : 5,258   (3.3x IIT)
+- IIIT median closing rank : 7,430   (4.7x IIT)
+- GFTI median closing rank : 12,580  (8.0x IIT)
+- IIT-to-NIT gap (3,683) is larger than the NIT-to-IIIT gap (2,172)
+- Top NITs (Surathkal: 1,772, Trichy: 1,852) beat 12 IITs in competitiveness
+
+FINDING 2: IIT HIERARCHY IS STABLE BUT INTERNAL GAPS EXIST
+────────────────────────────────────────────────────────────
+- IIT Delhi (#1, rank 660) and IIT Bombay (#2, rank 797) are dominant
+- IIT Guwahati ranks #3 — above IIT Madras and IIT Kanpur
+- IIT Hyderabad (#4) — fastest-rising new IIT
+- Old vs New IIT gap WIDENED from 713 (2018) to 965 (2025)
+- New IITs are improving but old IITs are improving equally fast
+
+FINDING 3: IIITs ARE THE FASTEST RISING TIER
+──────────────────────────────────────────────
+- 9 of top 10 most improved colleges (2018→2025) are IIITs
+- IIIT Bhubaneswar improved 67%, IIIT Lucknow improved 63.6%
+- IIIT median closing rank decreased 8,474 → 7,544 (becoming harder)
+- Tech industry demand directly driving IIIT preference surge
+
+FINDING 4: AI IS THE MOST COMPETITIVE BRANCH
+──────────────────────────────────────────────
+- AI (Artificial Intelligence) — median closing rank 630
+- EE Dual Degree — 683 (IIT-only offering, very few seats)
+- Math & Computing — 1,089 (22 institutes)
+- CSE national median 3,401 — distorted by 109 institutes including low-tier
+- New-age programs (AI, ML, DS, IoT) growing fastest in demand
+
+FINDING 5: CATEGORY GAPS ARE WIDENING
+───────────────────────────────────────
+- ST category closes at only 10% of OPEN closing rank
+- OBC-NCL ratio dropped from 0.443 (2018) to 0.373 (2025)
+- EWS introduced in 2019, stabilized at 15-17% of OPEN rank
+- Reservation policy creates access but gaps are not narrowing
+- OPEN category closing rank doubled from 6,660 to 14,662 in 7 years
+
+FINDING 6: GEOGRAPHY PREDICTS NIT COMPETITIVENESS
+────────────────────────────────────────────────────
+- South and West India NITs dominate top rankings
+- NIT Surathkal (Karnataka) and NIT Trichy (Tamil Nadu) are #1 and #2
+- Northeast NITs (Nagaland, Arunachal, Sikkim) are least competitive
+- NIT Delhi ranks #4 despite being new — pure location premium effect
+- Urban location is a significant predictor of NIT competitiveness
+
+FINDING 7: ROUND MOVEMENT SIGNALS SEAT STABILITY
+──────────────────────────────────────────────────
+- Average closing rank rises 23.6% from Round 1 to final round
+- IITs most stable: only 10.1% median movement
+- GFTIs most volatile: 35% median movement
+- IIT Delhi: only 0.2% movement — strongest prestige lock-in
+- Students targeting GFTIs have real opportunity in later rounds
+
+FINDING 8: GENDER SEAT PROPORTION IS STAGNANT
+───────────────────────────────────────────────
+- Female-Only seats stable at 36-38% across all 8 years
+- FO seats close at higher rank (14,306) vs GN (12,066)
+- FO-GN gap widening — female engineering demand growing slower
+- Policy created seats but structural proportion has not shifted
+
+DATA QUALITY NOTES
+───────────────────
+- 2021 data severely reduced due to COVID-19 disruption
+- 2024 had only 5 rounds (vs 6 in other years)
+- Architecture programs excluded — different entrance system
+- NIT analysis uses OS+AI quota (AI quota insufficient for NITs)
+- Round 7 existed in 2018-2019 as a special round (flagged)

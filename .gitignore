@@ -1,0 +1,41 @@
+#########################################################
+# JEE Admission Analytics - .gitignore
+#########################################################
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Models
+models/
+deployment/models/
+jee-admission-counselor/models/
+
+# Large datasets
+data/raw/
+data/processed/
+deployment/data/
+jee-admission-counselor/data/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS files
+Thumbs.db
+.DS_Store
