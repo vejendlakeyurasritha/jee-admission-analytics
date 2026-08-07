@@ -1,49 +1,145 @@
----
-title: JEE Admission Counselor AI
-emoji: 🎓
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.32.0
-app_file: app.py
-pinned: false
----
-
 # 🎓 JEE Admission Counselor AI
 
-An AI-powered admission counseling assistant built on 8 years (2018-2025) of 
-JoSAA (Joint Seat Allocation Authority) cutoff data covering 432,524 admission 
-records across 136 institutes (IITs, NITs, IIITs, GFTIs).
+An AI-powered admission counseling platform that combines **Machine Learning, Retrieval-Augmented Generation (RAG), FAISS Vector Search, and Groq LLMs** to provide personalized college recommendations, admission trend analysis, and intelligent responses using **JoSAA counselling data (2018–2025).**
 
-## Features
+---
 
-- **Rank-based College Finder**: Enter your JEE rank, category, and preferences 
-  to get realistic college recommendations with safety verdicts
-- **Trend Analysis**: Track how closing ranks for specific colleges/programs 
-  changed over the years
-- **Best College Rankings**: Find the most competitive colleges for any branch
-- **Natural Language Interface**: Powered by Groq LLaMA-3.1 for intent understanding
+## ✨ Features
 
-## Tech Stack
+- 🎯 College recommendations based on JEE rank, category, and preferred branch
+- 📈 Admission trend analysis using historical JoSAA data (2018–2025)
+- 🤖 AI chatbot powered by Groq LLM + RAG
+- 🔍 Semantic search using FAISS vector database
+- 📊 Personalized admission insights
+- 💬 Natural language query support
 
-- **Data Processing**: Pandas, NumPy
-- **Machine Learning**: Random Forest Regressor (R² = 0.87) for closing rank prediction
-- **RAG**: FAISS vector store with 81,112 indexed documents, 
-  HuggingFace sentence-transformers embeddings
-- **LLM**: Groq (LLaMA-3.1-8b-instant) for query understanding
-- **UI**: Streamlit
+---
 
-## Architecture
+## 🛠️ Tech Stack
 
-The system uses a hybrid approach:
-1. LLM classifies user intent and extracts structured parameters
-2. Deterministic pandas-based engines compute exact rankings/filters/trends
-3. RAG handles open-ended comparison questions
+- Python
+- Streamlit
+- Pandas
+- LangChain
+- FAISS
+- Sentence Transformers
+- Groq API
+- HuggingFace Embeddings
 
-This avoids LLM hallucination on numerical data while retaining natural 
-language flexibility.
+---
 
-## Data Source
+## 📂 Project Structure
 
-JoSAA Cutoff data 2018-2025 (Rounds 1-6), sourced from official JoSAA 
-counselling records via Kaggle.
+```text
+jee-admission-counselor/
+│
+├── app.py
+├── data/
+├── models/
+├── assets/
+│   └── screenshots/
+├── requirements.txt
+├── Dockerfile
+└── README.md
+```
+
+---
+
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+
+The landing page of the AI-powered admission counseling platform.
+
+![Home Page](assets/screenshots/homepage.jpeg)
+
+---
+
+### 🎯 College Recommendation
+
+Personalized college recommendations based on JEE rank, category, and preferred branch.
+
+![College Recommendation](assets/screenshots/recommendations.jpeg)
+
+---
+
+### 📈 Trend Analysis
+
+Historical admission trend analysis using JoSAA data (2018–2025).
+
+![Trend Analysis](assets/screenshots/trend_analysis.jpeg)
+
+### 🏠 Home Page
+
+![Home](assets/screenshots/home.png)
+
+---
+
+### 🎯 College Recommendation
+
+![Recommendation](assets/screenshots/recommendation.png)
+
+---
+
+### 📈 Trend Analysis
+
+![Trend](assets/screenshots/trend_analysis.png)
+
+---
+
+### 🤖 AI Chatbot
+
+![Chatbot](assets/screenshots/chatbot.png)
+
+---
+
+### ⚠️ Edge Case Handling
+
+![No Results](assets/screenshots/no_results.png)
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone <repository-url>
+cd jee-admission-counselor
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python -m streamlit run app.py
+```
+
+---
+
+## 📊 Dataset
+
+- JoSAA Counselling Data (2018–2025)
+- Historical opening and closing ranks
+- IITs
+- NITs
+- IIITs
+- Branch-wise admission data
+
+---
+
+## 🔮 Future Improvements
+
+- College comparison
+- Branch comparison
+- Admission probability prediction
+- Downloadable counselling report (PDF)
+- Dream / Target / Safe college categorization
+
+---
+
+## 👩‍💻 Author
+
+**Keyura Sritha**
+
+B.Tech CSE | AI & Machine Learning Enthusiast
