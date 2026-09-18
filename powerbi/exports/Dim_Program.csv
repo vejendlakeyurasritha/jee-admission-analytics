@@ -1,0 +1,332 @@
+program_id,program,program_category,is_new_age_program
+1,"Agricultural Engineering (4 Years, Bachelor of Technology)",Other,False
+2,"Computer Science and Engineering (4 Years, Bachelor of Technology)",CS,False
+3,"Electronics and Communication Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+4,"Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+5,"Integrated B. Tech.(IT) and M. Tech (IT) (5 Years, Integrated B. Tech. and M. Tech. /MBA)",Other,False
+6,"Integrated B. Tech.(IT) and M. Tech (IT) (5 Years, Integrated B. Tech. and M. Tech.)",Other,False
+7,"Integrated B. Tech.(IT) and MBA (5 Years, Integrated B. Tech. and M. Tech. /MBA)",Other,False
+8,"Integrated B. Tech.(IT) and MBA (5 Years, Integrated B. Tech. and MBA)",Other,False
+9,"Mathematics and Scientific Computing (4 Years, Bachelor of Technology)",CS,False
+10,"Mechanical Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+11,"Architecture (5 Years, Bachelor of Architecture)",Architecture_Planning,False
+12,"Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",CS,True
+13,"Bio Technology (4 Years, Bachelor of Technology)",Other,False
+14,"Chemical Engineering (4 Years, Bachelor of Technology)",Chemical,False
+15,"Chemical Engineering (Plastic and Polymer) (4 Years, Bachelor of Technology)",Chemical,False
+16,"Chemistry (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+17,"Civil Engineering (4 Years, Bachelor of Technology)",Civil,False
+18,"Food Engineering and Technology (4 Years, Bachelor of Technology)",Chemical,False
+19,"Food Technology (5 Years, Integrated Master of Science)",Chemical,False
+20,"Information Technology (4 Years, Bachelor of Technology)",CS,False
+21,"Mathematics and Computing (5 Years, Integrated Master of Science)",CS,False
+22,"Physics (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+23,"Production Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+24,"Production and Industrial Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+25,"Quantitative Economics & Data Science (5 Years, Integrated Master of Science)",CS,True
+26,"Electrical Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+27,"Integrated B. Tech. - M. Tech in Civil Engineering (5 Years, Integrated B. Tech. and M. Tech.)",Civil,False
+28,"Integrated B. Tech. - M. Tech in Computer Science & Engineering (5 Years, Integrated B. Tech. and M. Tech.)",CS,False
+29,"Integrated B. Tech. - M. Tech in Electrical Engineering (5 Years, Integrated B. Tech. and M. Tech.)",Electrical_Electronics,False
+30,"Integrated B. Tech.- M. Tech in Metallurgical & Materials Engineering (5 Years, Integrated B. Tech. and M. Tech.)",Materials_Mining,False
+31,"Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+32,"Instrumentation Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+33,"Printing and Packaging Technology (4 Years, Bachelor of Technology)",Other,False
+34,"Computer Science and Engineering with specialization in Cyber Security (4 Years, Bachelor of Technology)",CS,False
+35,"Electronics and Communication Engineering (Avionics) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+36,"Mathematics and Computing (4 Years, Bachelor of Technology)",CS,False
+37,"Bio Medical Engineering (4 Years, Bachelor of Technology)",Other,False
+38,"Computer Science Engineering (Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",CS,True
+39,"Computer Science Engineering (Data Science) (4 Years, B. Tech / B. Tech (Hons.))",CS,True
+40,"Data Science and Engineering (4 Years, Bachelor of Technology)",CS,True
+41,"Electronics and VLSI Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+42,"Industrial and Production Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+43,"Instrumentation and Control Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+44,"Textile Technology (4 Years, Bachelor of Technology)",Other,False
+45,"B.Tech in Artificial Intelligenece and Data Science (Transportation and Logistics) (4 Years, Bachelor of Technology)",CS,True
+46,"B.Tech in Aviation Engineering (4 Years, Bachelor of Technology)",Other,False
+47,"B.Tech in Civil Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",Civil,False
+48,"B.Tech in Electrical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+49,"B.Tech in Electronics & Communication Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+50,"B.Tech in Mechanical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",Mechanical,False
+51,"Civil and Environmental Engineering (4 Years, Bachelor of Technology)",Civil,False
+52,"Computer Science Engineering (Artificial lntelligence and Machine Learning) (4 Years, Bachelor of Technology)",CS,True
+53,"Food Technology (4 Years, Bachelor of Technology)",Chemical,False
+54,"Electrical and Instrumentation Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+55,"Computer Science and Engineering with specialization in Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",CS,True
+56,"Computer Science and Engineering with specialization in Quantum Technologies (4 Years, Bachelor of Technology)",CS,False
+57,"Electronics and Communication Engineering with specialization in VLSI and Embedded Systems (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+58,"Carpet and Textile Technology (4 Years, Bachelor of Technology)",Other,False
+59,"Aerospace Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+60,"Architecture, Town and Regional Planning (5 Years, Bachelor of Architecture)",Architecture_Planning,False
+61,"Electronics and Telecommunication Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+62,"Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+63,"Mining Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+64,"Handloom and Textile Technology (4 Years, Bachelor of Technology)",Other,False
+65,"Computer Science Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",CS,True
+66,"Computer Science Engineering (Human Computer lnteraction and Gaming Technology) (4 Years, Bachelor of Technology)",CS,False
+67,"Electronics and Communication Engineering (Internet of Things) (4 Years, Bachelor of Technology)",Electrical_Electronics,True
+68,"B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",CS,False
+69,"Computer Science and Engineering (with Specialization of Data Science and Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",CS,True
+70,"Electronics and Communication Engineering (with Specialization of Embedded Systems and Internet of Things) (4 Years, B. Tech / B. Tech (Hons.))",Electrical_Electronics,True
+71,"Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",CS,True
+72,"Artificial Intelligence and Data Engineering (4 Years, Bachelor of Technology)",CS,True
+73,"Mechatronics Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+74,"Mechatronics and Automation Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+75,"Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",CS,True
+76,"Computer Science and Engineering (Cyber Physical System) (4 Years, Bachelor of Technology)",CS,False
+77,"Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",CS,False
+78,"Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",CS,True
+79,"Physics and Computational Engineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,True
+80,"Computer Engineering (4 Years, Bachelor of Technology)",CS,False
+81,"Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,False
+82,"Electronics and Communication Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+83,"Electronics and Communication Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+84,"Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+85,"Mechanical Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",Mechanical,False
+86,"Computer Science (4 Years, Bachelor of Technology)",CS,False
+87,"Computer Science and Artificial Intelligence (4 Years, Bachelor of Technology)",CS,True
+88,"Computer Science and Business (4 Years, Bachelor of Technology)",CS,False
+89,"Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",CS,True
+90,"Computer Science and Engineering ( Artificial Intelligence & Data Science) (4 Years, Bachelor of Technology)",CS,True
+91,"Electronics and Communication Engineering (VLSI Design) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+92,"Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",CS,True
+93,"CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",CS,True
+94,"Artificial Intelligence (4 Years, Bachelor of Technology)",CS,True
+95,"Electronics and Communication Engineering (Under Flexible Academic Program) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+96,"Information Technology (Under Flexible Academic Program) (4 Years, Bachelor of Technology)",CS,False
+97,"Information Technology-Business Informatics (4 Years, Bachelor of Technology)",CS,False
+98,"B. Tech. Computer Science and Engineering and M. Tech. Computer Science and Engineering with specialization in Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,False
+99,"B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+100,"B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+101,"B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+102,"B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+103,"B.Tech in Mechanical Engineering and M.Tech in AI and Robotics (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Mechanical,True
+104,"B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+105,"B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+106,"B.Tech. in Electronics and Communication Engineering and M.Tech. in VLSI Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+107,"Computer Science and Engineering with Major in Artificial Intelligence (4 Years, Bachelor of Technology)",CS,True
+108,"Design Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+109,"Engineering Physics (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+110,"Mechanical Engineering with specialization in Smart Manufacturing (4 Years, Bachelor of Technology)",Mechanical,False
+111,"Smart Manufacturing (4 Years, Bachelor of Technology)",Mechanical,False
+112,"Biochemical Engineering (4 Years, Bachelor of Technology)",Chemical,False
+113,"Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+114,"Bioengineering (4 Years, Bachelor of Technology)",Other,False
+115,"Bioengineering with M.Tech in Biomedical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,False
+116,"Ceramic Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+117,"Ceramic Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+118,"Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+119,"Electrical Engineering with M.Tech. in Power Electronics (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+120,"Electronics Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+121,"Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))",Science_Interdisciplinary,False
+122,"Industrial Chemistry (4 Years, Bachelor of Technology)",Mechanical,False
+123,"Industrial Chemistry (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+124,"Materials Science and Technology (4 Years, Bachelor of Technology)",Materials_Mining,False
+125,"Materials Science and Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+126,"Mathematics and Computing (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,False
+127,"Metallurgical Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+128,"Metallurgical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+129,"Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+130,"Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",Other,False
+131,"Pharmaceutical Engineering & Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,False
+132,"Applied Geology (5 Years, Integrated Master of Technology)",Other,False
+133,"Applied Geophysics (5 Years, Integrated Master of Technology)",Science_Interdisciplinary,False
+134,"B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Integrated B. Tech. and MBA)",Materials_Mining,False
+135,"Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)",Chemical,False
+136,"Electronics and Instrumentation Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+137,"Environmental Engineering (4 Years, Bachelor of Technology)",Civil,False
+138,"Mathematics and Computing (5 Years, Integrated Master of Technology)",CS,False
+139,"Mineral Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+140,"Mineral and Metallurgical Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+141,"Mining Machinery Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+142,"Petroleum Engineering (4 Years, Bachelor of Technology)",Other,False
+143,"Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)",Science_Interdisciplinary,False
+144,"Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+145,"Civil Engineering and M. Tech. in Structural Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+146,"Civil Engineering and M.Tech in Transportation Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+147,"Civil Engineering and M.Tech. in Environmental Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+148,"Electrical Engineering and M.Tech Power Electronics and Drives (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+149,"Mechanical Engineering and M. Tech. in Mechanical System Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+150,"Mechanical Engineering and M. Tech. in Thermal Science & Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+151,"Mechanical Engineering with M.Tech. in Manufacturing Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+152,"Metallurgical and Materials Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+153,"Metallurgical and Materials Engineering and M.Tech. in Materials Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+154,"Applied Geophysics (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+155,"BS in Mathematics (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+156,"Chemistry (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+157,"Economics (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+158,"Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+159,"Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+160,"Electrical Engineering with M.Tech. in Microelectronics (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+161,"Energy Engineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+162,"Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Science_Interdisciplinary,False
+163,"Environmental Science and Engineering (4 Years, Bachelor of Technology)",Civil,False
+164,"Environmental Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+165,"Industrial Engineering and Operations Research (4 Years, Bachelor of Technology)",Mechanical,False
+166,"Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+167,"Metallurgical Engineering & Materials Science (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+168,"Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",Materials_Mining,False
+169,"Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+170,"Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+171,"Abu Dhabi Campus - Chemical Engineering (4 Years, Bachelor of Technology)",Chemical,False
+172,"Abu Dhabi Campus - Computer Science and Engineering (4 Years, Bachelor of Technology)",CS,False
+173,"Abu Dhabi Campus - Energy Engineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+174,"Biochemical Engineering and Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+175,"Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",Chemical,False
+176,"Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+177,"Design (4 Years, Bachelor of Technology)",Mechanical,False
+178,"Electrical Engineering (Power and Automation) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+179,"Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",Other,True
+180,"Materials Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+181,"Chemical and Biochemical Engineering (4 Years, Bachelor of Technology)",Chemical,False
+182,"Civil and Infrastructure Engineering (4 Years, Bachelor of Technology)",Civil,False
+183,"Interdisciplinary Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+184,"Integrated Circuit Design & Technology (4 Years, Bachelor of Technology)",Mechanical,False
+185,"Materials Science and Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+186,"Biosciences and Bioengineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+187,"Chemical Science and Technology (4 Years, Bachelor of Technology)",Chemical,False
+188,"Electronics and Electrical Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+189,"Biomedical Engineering (4 Years, Bachelor of Technology)",Other,False
+190,"Biotechnology and Bioinformatics (4 Years, Bachelor of Technology)",Other,True
+191,"Computational Engineering (4 Years, Bachelor of Technology)",Other,True
+192,"Electrical Engineering (IC Design and Technology) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+193,"Engineering Science (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+194,"Space Science and Engineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+195,"Space Sciences and Engineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+196,"Bio Engineering (4 Years, Bachelor of Technology)",Other,False
+197,"Chemistry with Specialization (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+198,"Physics with Specialization (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+199,"Biological Sciences and Bioengineering (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+200,"Earth Sciences (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+201,"Mathematics and Scientific Computing (4 Years, Bachelor of Science)",CS,False
+202,"Physics (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+203,"Statistics and Data Science (4 Years, Bachelor of Science)",CS,True
+204,"Aerospace Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+205,"Agricultural and Food Engineering (4 Years, Bachelor of Technology)",Chemical,False
+206,"Agricultural and Food Engineering with M.Tech. in any of the listed specializations (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+207,"Applied Geology (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+208,"Applied Geology (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+209,"Biotechnology and Biochemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+210,"Civil Engineering with any of the listed specialization (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+211,"Economics (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+212,"Electrical Engineering with M.Tech. in any of the listed specializations (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+213,"Electronics and Electrical Communication Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+214,"Electronics and Electrical Communication Engineering with M.Tech. in any of the listed specializations (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+215,"Exploration Geophysics (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+216,"Exploration Geophysics (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+217,"Industrial and Systems Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+218,"Industrial and Systems Engineering with M.Tech. in Industrial and Systems Engineering and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+219,"Manufacturing Science and Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+220,"Manufacturing Science and Engineering with M.Tech. in Industrial and Systems Engineering and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+221,"Mathematics and Computing (4 Years, Bachelor of Science)",CS,False
+222,"Mechanical Engineering with M.Tech. in any of the listed specializations (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+223,"Mining Safety Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Materials_Mining,False
+224,"Ocean Engineering and Naval Architecture (4 Years, Bachelor of Technology)",Architecture_Planning,False
+225,"Ocean Engineering and Naval Architecture (5 Years, Bachelor and Master of Technology (Dual Degree))",Architecture_Planning,False
+226,"Quality Engineering Design and Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+227,"Artificial Intelligence and Data Analytics (4 Years, Bachelor of Technology)",CS,True
+228,"Biological Engineering (4 Years, Bachelor of Technology)",Other,False
+229,"Biological Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,False
+230,"Biological Science (4 Years, Bachelor of Science)",Science_Interdisciplinary,False
+231,"Biological Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+232,"Computational Engineering and Mechanics (4 Years, Bachelor of Technology)",Other,True
+233,"Engineering Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+234,"Instrumentation and Biomedical Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+235,"Naval Architecture and Ocean Engineering (4 Years, Bachelor of Technology)",Architecture_Planning,False
+236,"Naval Architecture and Ocean Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Architecture_Planning,False
+237,"Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+238,"B.Tech in General Engineering (4 Years, Bachelor of Technology)",Other,False
+239,"B.Tech in Materials Science and Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+240,"B.Tech in Microelectronics & VLSI (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+241,"BS in Chemical Sciences (4 Years, Bachelor of Science)",Chemical,False
+242,"Bio Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,False
+243,"B. Tech in CE. - M. Tech. in Geotechnical Engineering (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Civil,False
+244,"B. Tech in CE. - M. Tech. in Structural Engineering (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Civil,False
+245,"B. Tech. (CSE) and M.Tech in CSE (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Other,False
+246,"B. Tech. (ECE) -M. Tech. in VLSI (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Electrical_Electronics,False
+247,"B. Tech. (EEE)-M. Tech. in (Power &. Control) (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Other,False
+248,"B. Tech. (ME) - M. Tech. in Mechatronics (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Mechanical,False
+249,"B. Tech. (ME) - MBA (NITIE) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Other,False
+250,"B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing) (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",CS,False
+251,"B.Tech (Artificial Intelligence and Data Science) - MBA in Digital Business Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",CS,True
+252,"B.Tech (Chemical Engineering) - MBA in Hospital and Health Care Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Chemical,False
+253,"B.Tech (Chemical Science and Technology) - MBA in Hospital and Health Care Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Chemical,False
+254,"B.Tech (Civil Engineering) - MBA (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Civil,False
+255,"B.Tech (Computer Science and Engineering) - MBA in Digital Business Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",CS,False
+256,"B.Tech (Electrical and Electronics Engineering) - MBA (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Electrical_Electronics,False
+257,"B.Tech (Electronics and Communication Engineering) - MBA in Hospital and Healthcare Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Electrical_Electronics,False
+258,"B.Tech (Engineering Physics) - MBA (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Science_Interdisciplinary,False
+259,"B.Tech (Mathematics and Computing) - MBA in Digital Business Management (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",CS,False
+260,"B.Tech (Mechanical Engineering) - MBA (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Mechanical,False
+261,"B.Tech (Metallurgical and Materials Engineering) - MBA (IIM Bodh Gaya) (5 Years, Bachelor of Technology and MBA (Dual Degree))",Materials_Mining,False
+262,"BS in Economics with MBA (IIM Bodh Gaya) (5 Years, Bachelor of Science and MBA (Dual Degree))",Science_Interdisciplinary,False
+263,"Applied Mathematics (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+264,"Chemical Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Chemical,False
+265,"Economics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+266,"Geological Technology (5 Years, Integrated Master of Technology)",Other,False
+267,"Geophysical Technology (5 Years, Integrated Master of Technology)",Other,False
+268,"Mathematics & Computing (5 Years, Bachelor of Science and Master of Science (Dual Degree))",CS,False
+269,"Polymer Science and Engineering (4 Years, Bachelor of Technology)",Chemical,False
+270,"Digital Agriculture (4 Years, Bachelor of Technology)",Other,False
+271,"Electrical Engineering (Integrated Circuit Design and Technology) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+272,"Chemical Engineering (5 Years, Integrated Masters in Technology)",Chemical,False
+273,"Aeronautical Engineering (4 Years, Bachelor of Technology)",Other,False
+274,"Dairy Engineering (4 Years, Bachelor of Technology)",Other,False
+275,"Fashion and Apparel Engineering (4 Years, Bachelor of Technology)",Other,False
+276,"Computer Science & Engineering (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",CS,False
+277,"Electronics & Communication Engineering (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",Electrical_Electronics,False
+278,"B. Tech. and M. Tech. in Engineering and Computational Mechanics (Dual Degree) (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,True
+279,"Energy and Electrical Vehicle Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+280,"Mathematics and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,True
+281,"Planning (4 Years, Bachelor of Planning)",Architecture_Planning,False
+282,"Computer Science and Engineering (Internet of Things, Cyber Security including Block Chain Technology ) (4 Years, Bachelor of Technology)",CS,True
+283,"Electronic Engineering (4 Years, Bachelor of Technology)",Other,False
+284,"Electronics System Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+285,"B. Tech in Electronics and Communication Engineering with minor in Wearable Electronics (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+286,"Computer Science and Engineering with minor in AI and ML (4 Years, Bachelor of Technology)",CS,False
+287,"B.Tech in CSE (AI and ML) (4 Years, Bachelor of Technology)",Other,False
+288,"Food Technology and Management (4 Years, Bachelor of Technology)",Chemical,False
+289,"Manufacturing Engineering (4 Years, Bachelor of Technology)",Mechanical,False
+290,"Chemistry (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+291,"Computational Mathematics (5 Years, Bachelor and Master of Technology (Dual Degree))",Science_Interdisciplinary,True
+292,"Mathematics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",Science_Interdisciplinary,False
+293,"VLSI Design and Technology (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+294,"Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",Other,False
+295,"Computational and Data Science (4 Years, Bachelor of Technology)",CS,True
+296,"Chemical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",Chemical,False
+297,"Civil Engineering with Specialization in Construction Technology and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",Civil,False
+298,"Computer Science and Engineering with Specialization in Cyber Security (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,False
+299,"Computer Science and Engineering with Specialization in Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,True
+300,"Electrical Engineering with Specialization In Power System Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+301,"Electronics Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+302,"Electronics and Communication Engineering with Specialization in Microelectronics and VLSI System Design (5 Years, Bachelor and Master of Technology (Dual Degree))",Electrical_Electronics,False
+303,"Material Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Science_Interdisciplinary,False
+304,"Mathematics (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+305,"Mathematics and Computing Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",CS,False
+306,"Mechanical Engineering with Specialization in Manufacturing and Industrial Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+307,"Architecture and Planning (5 Years, Bachelor of Architecture)",Architecture_Planning,False
+308,"Industrial Internet of Things (4 Years, Bachelor of Technology)",Mechanical,True
+309,"Microelectronics & VLSI Engineering (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+310,"ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",Mechanical,True
+311,"SUSTAINABLE ENERGY TECHNOLOGIES (4 Years, Bachelor of Technology)",Science_Interdisciplinary,False
+312,"Ceramic Engineering and M.Tech Industrial Ceramic (5 Years, Bachelor and Master of Technology (Dual Degree))",Mechanical,False
+313,"Food Process Engineering (4 Years, Bachelor of Technology)",Chemical,False
+314,"Industrial Design (4 Years, Bachelor of Technology)",Mechanical,False
+315,"Life Science (5 Years, Integrated Master of Science)",Science_Interdisciplinary,False
+316,"Electronics and Communication Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",Electrical_Electronics,False
+317,"Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",Materials_Mining,False
+318,"Mechanical Engineering (Manuacturing Engineering) (4 Years, Bachelor of Technology)",Mechanical,False
+319,"Mechanical Engineering (Welding Technology) (4 Years, Bachelor of Technology)",Mechanical,False
+320,"Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",CS,True
+321,"B.Tech. (Civil Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",Civil,False
+322,"B.Tech. (Computer Science and Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",CS,False
+323,"B.Tech. (Elctrical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",Other,False
+324,"B.Tech. (Electronics and Communication Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",Electrical_Electronics,False
+325,"B.Tech. (Food Engineering and Technology) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",Chemical,False
+326,"B.Tech. (Mechanical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",Mechanical,False
+327,"Bachelor of Design (4 Years, Bachelor of Design)",Mechanical,False
+328,"Animation and VFX (4 Years, Bachelor of Technology)",Other,False
+329,"Robotics and AI (4 Years, Bachelor of Technology)",Mechanical,True
+330,"Computer Science (5 Years, Integrated Master of Technology)",CS,False
+331,"Materials Engineering (5 Years, Integrated Master of Technology)",Materials_Mining,False

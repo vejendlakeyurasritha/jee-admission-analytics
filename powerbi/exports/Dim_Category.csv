@@ -1,0 +1,101 @@
+category_id,category_base,gender_short,seat_type,gender,quota
+1,EWS,FO,EWS,Female-only (including Supernumerary),HS
+2,EWS,GN,EWS,Gender-Neutral,AI
+3,EWS,GN,EWS,Gender-Neutral,HS
+4,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),AI
+5,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),HS
+6,OBC-NCL,GN,OBC-NCL,Gender-Neutral,AI
+7,OBC-NCL,GN,OBC-NCL,Gender-Neutral,HS
+8,OPEN,FO,OPEN,Female-only (including Supernumerary),AI
+9,OPEN,FO,OPEN,Female-only (including Supernumerary),HS
+10,OPEN,GN,OPEN,Gender-Neutral,AI
+11,OPEN,GN,OPEN (PwD),Gender-Neutral,AI
+12,OPEN,GN,OPEN,Gender-Neutral,HS
+13,SC,FO,SC,Female-only (including Supernumerary),AI
+14,SC,FO,SC,Female-only (including Supernumerary),HS
+15,SC,GN,SC,Gender-Neutral,AI
+16,SC,GN,SC,Gender-Neutral,HS
+17,ST,GN,ST,Gender-Neutral,AI
+18,ST,GN,ST,Gender-Neutral,HS
+19,OPEN,GN,OPEN (PwD),Gender-Neutral,HS
+20,EWS,FO,EWS,Female-only (including Supernumerary),AI
+21,OBC-NCL,GN,OBC-NCL (PwD),Gender-Neutral,AI
+22,OPEN,FO,OPEN (PwD),Female-only (including Supernumerary),AI
+23,SC,GN,SC (PwD),Gender-Neutral,AI
+24,ST,FO,ST,Female-only (including Supernumerary),AI
+25,ST,GN,ST (PwD),Gender-Neutral,AI
+26,EWS,GN,EWS (PwD),Gender-Neutral,AI
+27,OBC-NCL,FO,OBC-NCL (PwD),Female-only (including Supernumerary),AI
+28,EWS,GN,EWS,Gender-Neutral,OS
+29,OPEN,GN,OPEN,Gender-Neutral,OS
+30,OPEN,GN,OPEN (PwD),Gender-Neutral,OS
+31,SC,GN,SC,Gender-Neutral,OS
+32,ST,GN,ST,Gender-Neutral,OS
+33,SC,GN,SC (PwD),Gender-Neutral,OS
+34,EWS,GN,EWS (PwD),Gender-Neutral,HS
+35,ST,GN,ST (PwD),Gender-Neutral,HS
+36,EWS,FO,EWS,Female-only (including Supernumerary),OS
+37,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),OS
+38,OBC-NCL,GN,OBC-NCL,Gender-Neutral,OS
+39,OBC-NCL,GN,OBC-NCL (PwD),Gender-Neutral,OS
+40,OPEN,FO,OPEN,Female-only (including Supernumerary),OS
+41,SC,FO,SC,Female-only (including Supernumerary),OS
+42,ST,FO,ST,Female-only (including Supernumerary),OS
+43,SC,GN,SC (PwD),Gender-Neutral,HS
+44,ST,FO,ST,Female-only (including Supernumerary),HS
+45,EWS,GN,EWS (PwD),Gender-Neutral,OS
+46,OPEN,FO,OPEN (PwD),Female-only (including Supernumerary),OS
+47,ST,GN,ST (PwD),Gender-Neutral,OS
+48,OBC-NCL,FO,OBC-NCL (PwD),Female-only (including Supernumerary),OS
+49,OBC-NCL,GN,OBC-NCL (PwD),Gender-Neutral,HS
+50,OPEN,FO,OPEN (PwD),Female-only (including Supernumerary),HS
+51,EWS,FO,EWS (PwD),Female-only (including Supernumerary),OS
+52,OBC-NCL,FO,OBC-NCL (PwD),Female-only (including Supernumerary),HS
+53,EWS,FO,EWS (PwD),Female-only (including Supernumerary),AI
+54,SC,FO,SC (PwD),Female-only (including Supernumerary),AI
+55,SC,FO,SC (PwD),Female-only (including Supernumerary),HS
+56,SC,FO,SC (PwD),Female-only (including Supernumerary),OS
+57,EWS,FO,EWS (PwD),Female-only (including Supernumerary),HS
+58,ST,FO,ST (PwD),Female-only (including Supernumerary),AI
+59,ST,FO,ST (PwD),Female-only (including Supernumerary),OS
+60,EWS,FO,EWS,Female-only (including Supernumerary),GO
+61,EWS,GN,EWS,Gender-Neutral,GO
+62,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),GO
+63,OBC-NCL,GN,OBC-NCL,Gender-Neutral,GO
+64,OPEN,FO,OPEN,Female-only (including Supernumerary),GO
+65,OPEN,GN,OPEN,Gender-Neutral,GO
+66,SC,GN,SC,Gender-Neutral,GO
+67,ST,GN,ST,Gender-Neutral,GO
+68,OPEN,GN,OPEN (PwD),Gender-Neutral,GO
+69,SC,FO,SC,Female-only (including Supernumerary),GO
+70,ST,FO,ST,Female-only (including Supernumerary),GO
+71,EWS,GN,EWS,Gender-Neutral,JK
+72,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),JK
+73,OBC-NCL,GN,OBC-NCL,Gender-Neutral,JK
+74,OPEN,FO,OPEN,Female-only (including Supernumerary),JK
+75,OPEN,GN,OPEN,Gender-Neutral,JK
+76,OPEN,GN,OPEN (PwD),Gender-Neutral,JK
+77,OPEN,GN,OPEN,Gender-Neutral,LA
+78,SC,FO,SC,Female-only (including Supernumerary),JK
+79,SC,GN,SC,Gender-Neutral,JK
+80,ST,FO,ST,Female-only (including Supernumerary),JK
+81,ST,GN,ST,Gender-Neutral,JK
+82,ST,GN,ST (PwD),Gender-Neutral,JK
+83,EWS,FO,EWS,Female-only (including Supernumerary),JK
+84,EWS,GN,EWS (PwD),Gender-Neutral,JK
+85,OBC-NCL,GN,OBC-NCL (PwD),Gender-Neutral,JK
+86,OPEN,FO,OPEN,Female-only (including Supernumerary),LA
+87,ST,FO,ST,Female-only (including Supernumerary),LA
+88,SC,GN,SC (PwD),Gender-Neutral,JK
+89,EWS,FO,EWS,Female-only (including Supernumerary),AP
+90,OBC-NCL,GN,OBC-NCL,Gender-Neutral,AP
+91,OPEN,FO,OPEN,Female-only (including Supernumerary),AP
+92,OPEN,GN,OPEN,Gender-Neutral,AP
+93,SC,GN,SC,Gender-Neutral,AP
+94,OPEN,GN,OPEN (PwD),Gender-Neutral,AP
+95,SC,FO,SC,Female-only (including Supernumerary),AP
+96,ST,GN,ST,Gender-Neutral,AP
+97,ST,FO,ST,Female-only (including Supernumerary),AP
+98,OBC-NCL,FO,OBC-NCL,Female-only (including Supernumerary),AP
+99,EWS,GN,EWS,Gender-Neutral,AP
+100,OBC-NCL,GN,OBC-NCL (PwD),Gender-Neutral,AP
