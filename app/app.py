@@ -2,9 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
+
+try:
+    import matplotlib.pyplot as plt
+    HAS_MATPLOTLIB = True
+except ImportError:
+    HAS_MATPLOTLIB = False
 
 # Try loading Plotly, with fallback to Native Streamlit / Matplotlib if not installed
 try:
