@@ -34,7 +34,7 @@ def create_powerbi_dashboards():
         ("432,524", "TOTAL ADMISSION RECORDS", "#2563EB"),
         ("136", "PARTICIPATING INSTITUTES", "#059669"),
         ("8 YEARS", "HISTORICAL TIMELINE", "#D97706"),
-        ("99.99%", "ML PREDICTOR ACCURACY", "#7C3AED")
+        ("79.64%", "LEAKAGE-FREE ML ACCURACY", "#7C3AED")
     ]
     for i, (val, title, color) in enumerate(kpis):
         ax_kpi = fig.add_axes([0.05 + i*0.225, 0.76, 0.20, 0.10])
@@ -147,37 +147,37 @@ def create_powerbi_dashboards():
     print("Saved 03_branch_trend_analytics_dashboard.png")
 
     # ---------------------------------------------------------
-    # DASHBOARD 4: ML ADMISSION PREDICTOR
+    # DASHBOARD 4: ML ADMISSION PREDICTOR (LEAKAGE-FREE)
     # ---------------------------------------------------------
     fig = plt.figure(figsize=(16, 9), dpi=150)
     fig.patch.set_facecolor('#F8FAFC')
     
-    fig.text(0.05, 0.93, "Power BI Dashboard: ML Admission Predictor & Classification Model", 
+    fig.text(0.05, 0.93, "Power BI Dashboard: ML Admission Predictor (Leakage-Free)", 
              fontsize=20, fontweight='bold', color='#0F172A')
-    fig.text(0.05, 0.90, "Machine Learning Classifier Model Metrics (R2 = 0.87, Accuracy = 99.99%)", 
+    fig.text(0.05, 0.90, "Leakage-Free Machine Learning Metrics (Trained on 2018-2023, Tested on 2024-2025)", 
              fontsize=12, color='#475569')
 
     ax1 = fig.add_axes([0.05, 0.10, 0.43, 0.72])
     ax1.set_facecolor('white')
     feat_df = pd.DataFrame({
-        'Feature': ['closing_rank', 'opening_rank', 'rank_window', 'competitiveness_score', 'category_base', 'institute_type', 'quota'],
-        'Importance': [0.42, 0.28, 0.12, 0.08, 0.04, 0.03, 0.02]
+        'Feature': ['category_base', 'program_category', 'quota', 'institute_type', 'iit_generation', 'is_top_tier_college', 'nit_region'],
+        'Importance': [0.396, 0.163, 0.093, 0.082, 0.076, 0.061, 0.047]
     }).sort_values('Importance', ascending=True)
     
     ax1.barh(feat_df['Feature'], feat_df['Importance'], color='#8B5CF6')
-    ax1.set_title("Feature Contribution to Admission Accessibility Classifier", fontsize=13, fontweight='bold', color='#1E293B', pad=12)
+    ax1.set_title("Feature Weight in Admission Accessibility Classification", fontsize=13, fontweight='bold', color='#1E293B', pad=12)
     ax1.set_xlabel("Relative Importance Score", fontsize=11, color='#475569')
     ax1.grid(axis='x', linestyle='--', alpha=0.7)
 
     ax2 = fig.add_axes([0.53, 0.10, 0.42, 0.72])
     ax2.set_facecolor('white')
     models_df = pd.DataFrame({
-        'Model': ['Random Forest', 'LightGBM', 'Logistic Reg.', 'XGBoost'],
-        'Accuracy': [99.99, 99.91, 99.91, 99.71]
+        'Model': ['Gradient Boost', 'Extra Trees', 'Random Forest', 'Logistic Reg.'],
+        'Accuracy': [79.64, 78.38, 77.76, 48.30]
     })
     bars = ax2.bar(models_df['Model'], models_df['Accuracy'], color=['#10B981', '#3B82F6', '#6366F1', '#F59E0B'], width=0.5)
-    ax2.set_ylim(99.0, 100.2)
-    ax2.set_title("Supervised Machine Learning Accuracy Comparison (%)", fontsize=13, fontweight='bold', color='#1E293B', pad=12)
+    ax2.set_ylim(0, 100)
+    ax2.set_title("Leakage-Free ML Model Test Accuracy (%)", fontsize=13, fontweight='bold', color='#1E293B', pad=12)
     ax2.set_ylabel("Accuracy (%)", fontsize=11, color='#475569')
     ax2.grid(axis='y', linestyle='--', alpha=0.7)
     for bar in bars:

@@ -31,7 +31,7 @@ jee-admission-analytics/
 │   ├── 04_feature_engineering.ipynb  # Deriving rank windows, tier scores, accessibility
 │   ├── 05_visualization.ipynb        # Statistical chart generation
 │   ├── 06_storytelling.ipynb         # Insight extraction & findings report
-│   └── 07_machine_learning.ipynb     # Supervised classification & regression training
+│   └── 07_machine_learning.ipynb     # Leakage-free supervised classification & regression
 ├── powerbi/                         # Power BI BI Module & Assets
 │   ├── generate_datasets.py         # Star Schema CSV dataset generator
 │   ├── generate_dashboard_mockups.py# Visual dashboard mockup generator
@@ -83,23 +83,23 @@ Tracks multi-year cutoff rank trajectories for major engineering branches (CSE, 
 
 ---
 
-### 4. Machine Learning Admission Predictor Dashboard
+### 4. Machine Learning Admission Predictor Dashboard (Leakage-Free)
 Displays relative feature importances, target classification distributions, and model performance comparisons across ML algorithms.
 
 ![ML Admission Predictor Dashboard](powerbi/dashboards/04_ml_admission_predictor_dashboard.png)
 
 ---
 
-## 🔮 Machine Learning Performance Summary
+## 🔮 Machine Learning Performance Summary (Leakage-Free)
 
-Multiple supervised machine learning algorithms were evaluated on historical JoSAA admission features:
+Supervised machine learning algorithms were evaluated **without target leakage** by training on student profile attributes (Category, Quota, Institute Type, Branch, Region, IIT Generation) on **2018–2023** data and evaluating on unseen **2024–2025** test data:
 
 | Machine Learning Model | Classification Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
-| **Random Forest Classifier** | **99.99%** | **99.99%** | **99.99%** | **99.99%** |
-| **LightGBM Classifier** | 99.91% | 99.91% | 99.91% | 99.91% |
-| **Logistic Regression** | 99.91% | 99.90% | 99.91% | 99.90% |
-| **XGBoost Classifier** | 99.71% | 99.72% | 99.71% | 99.71% |
+| **Gradient Boosting Classifier** | **79.64%** | **80.09%** | **79.64%** | **79.60%** |
+| **Extra Trees Classifier** | **78.38%** | **78.73%** | **78.38%** | **78.30%** |
+| **Random Forest Classifier** | **77.76%** | **77.75%** | **77.76%** | **77.50%** |
+| **Logistic Regression** | 48.30% | 34.55% | 48.30% | 40.21% |
 
 ---
 

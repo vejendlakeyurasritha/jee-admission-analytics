@@ -297,35 +297,35 @@ with tab3:
 # TAB 4: ML MODEL PERFORMANCE
 # ---------------------------------------------------------
 with tab4:
-    st.subheader("Machine Learning Model Evaluation & Feature Importance")
+    st.subheader("Machine Learning Model Evaluation & Feature Importance (Leakage-Free)")
     st.markdown("""
-    Multiple supervised learning models (**Random Forest, XGBoost, LightGBM, Logistic Regression**) were trained on historical JoSAA admission features to predict college accessibility categories and closing ranks.
+    Supervised learning models were evaluated **without target leakage** by training on student profile attributes (Category, Quota, Institute Type, Branch, Region, IIT Generation) on **2018–2023** data and testing on **2024–2025** data.
     """)
     
     m_col1, m_col2 = st.columns(2)
     
     with m_col1:
-        st.markdown("### Supervised Model Comparison Results")
+        st.markdown("### Leakage-Free Model Evaluation (2024–2025 Test Set)")
         model_perf = pd.DataFrame({
-            "Model": ["Random Forest Classifier", "LightGBM Classifier", "Logistic Regression", "XGBoost Classifier"],
-            "Accuracy": [0.9999, 0.9991, 0.9991, 0.9971],
-            "Precision": [0.9999, 0.9991, 0.9990, 0.9972],
-            "Recall": [0.9999, 0.9991, 0.9991, 0.9971],
-            "F1-Score": [0.9999, 0.9991, 0.9990, 0.9971]
+            "Machine Learning Model": ["Gradient Boosting Classifier", "Extra Trees Classifier", "Random Forest Classifier", "Logistic Regression"],
+            "Accuracy": ["79.64%", "78.38%", "77.76%", "48.30%"],
+            "Precision": ["80.09%", "78.73%", "77.75%", "34.55%"],
+            "Recall": ["79.64%", "78.38%", "77.76%", "48.30%"],
+            "F1-Score": ["79.60%", "78.30%", "77.50%", "40.21%"]
         })
         st.dataframe(model_perf, use_container_width=True, hide_index=True)
         
     with m_col2:
-        st.markdown("### Key ML Feature Importances")
+        st.markdown("### Feature Importances (No Target Leakage)")
         feat_imp = pd.DataFrame({
-            "Feature": ["closing_rank", "opening_rank", "rank_window", "competitiveness_score", "category_base", "institute_type", "quota", "program_category"],
-            "Importance": [0.42, 0.28, 0.12, 0.08, 0.04, 0.03, 0.02, 0.01]
-        }).sort_values("Importance", ascending=True)
+            "Feature": ["Category Base", "Program Discipline", "Quota", "Institute Type", "IIT Generation", "Is Top Tier", "NIT Region", "Year", "Gender Short", "Is New-Age Program"],
+            "Importance (%)": [39.59, 16.25, 9.28, 8.15, 7.64, 6.15, 4.65, 4.31, 3.57, 0.40]
+        }).sort_values("Importance (%)", ascending=True)
         
         if HAS_PLOTLY:
-            fig_feat = px.bar(feat_imp, x="Importance", y="Feature", orientation="h",
-                              title="Feature Contribution to Admission Accessibility Classification",
-                              color="Importance", color_continuous_scale="Purples")
+            fig_feat = px.bar(feat_imp, x="Importance (%)", y="Feature", orientation="h",
+                              title="Predictive Weight of Student Profile Features",
+                              color="Importance (%)", color_continuous_scale="Purples")
             st.plotly_chart(fig_feat, use_container_width=True)
         else:
             st.dataframe(feat_imp, use_container_width=True, hide_index=True)
