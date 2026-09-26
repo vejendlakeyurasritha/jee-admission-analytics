@@ -53,25 +53,33 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
+    # 1. Primary path for lightweight deployment dataset
+    app_data_path = os.path.join(os.path.dirname(__file__), "josaa_app_data.csv")
+    if os.path.exists(app_data_path):
+        df_final = pd.read_csv(app_data_path)
+        return df_final, df_final
+        
+    # 2. Secondary fallback for local dev environment
     path = os.path.join("data", "processed", "josaa_featured.csv")
     if not os.path.exists(path):
-        # Fallback to parent path if run inside app/ directory
         path = os.path.join("..", "data", "processed", "josaa_featured.csv")
-    df = pd.read_csv(path)
     
-    # Filter final round records for clean analytics & admission chances
-    last_round = (
-        df[df["is_special_round"] == False]
-        .groupby(["year", "institute_type"])["round"]
-        .max().reset_index().rename(columns={"round": "last_round"})
-    )
-    df_merged = df.merge(last_round, on=["year", "institute_type"], how="left")
-    df_final = df_merged[
-        (df_merged["round"] == df_merged["last_round"]) &
-        (df_merged["is_special_round"] == False) &
-        (df_merged["is_pwd"] == False)
-    ].copy()
-    return df, df_final
+    if os.path.exists(path):
+        df = pd.read_csv(path)
+        last_round = (
+            df[df["is_special_round"] == False]
+            .groupby(["year", "institute_type"])["round"]
+            .max().reset_index().rename(columns={"round": "last_round"})
+        )
+        df_merged = df.merge(last_round, on=["year", "institute_type"], how="left")
+        df_final = df_merged[
+            (df_merged["round"] == df_merged["last_round"]) &
+            (df_merged["is_special_round"] == False) &
+            (df_merged["is_pwd"] == False)
+        ].copy()
+        return df, df_final
+        
+    raise FileNotFoundError("JoSAA Dataset file not found.")
 
 try:
     df_full, df_final = load_data()
