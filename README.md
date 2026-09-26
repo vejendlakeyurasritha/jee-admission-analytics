@@ -1,6 +1,5 @@
 # 🎓 JEE Admission Analytics & ML Counselor (2018–2025)
 
-[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jee-admission-analytics.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
 [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811.svg)](https://powerbi.microsoft.com/)
@@ -8,7 +7,7 @@
 
 An end-to-end **Data Science, Machine Learning, and Power BI Business Intelligence System** analyzing **432,524 historical JoSAA admission records (2018–2025)** across all **IITs, NITs, IIITs, and GFTIs**. 
 
-👉 **[Launch Live Interactive Web App](https://jee-admission-analytics.streamlit.app)**
+The platform provides personalized college admission chance prediction, multi-year cutoff trend analysis, tier hierarchy analytics, and a complete Power BI Star Schema reporting suite.
 
 ---
 
@@ -139,6 +138,12 @@ python powerbi/generate_datasets.py
 # Render Visual Dashboard Mockups
 python powerbi/generate_dashboard_mockups.py
 ```
+
+---
+
+## 🌐 Live Web Application
+
+👉 **[JEE Admission Counselor & Analytics Portal · Streamlit](https://jee-admission-analytics-qclnlmz5a3xpero7t36pka.streamlit.app/)**
 
 ---
 
